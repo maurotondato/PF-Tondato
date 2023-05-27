@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Work Sans', sans-serif;
+}
+
+h1 {
+    margin-top: 40px;
+    font-size: 70px;
+    color: rgb(180, 138, 187);
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    color: rgb(95, 94, 94);
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+@media only screen and (max-width: 600px) {
+    h3 {
+        margin: auto;
+        margin-top: 50px;
+
+    }
+    h4 {
+        margin-top: 30px;
+    }
+}
+
+h4 {
+    text-align: end;
+    margin-right: 160px;
+}
+
+.tiposterapias {
+    text-align: center;
+    font-size: 30px;
+}
+
+body {
+    background-color: rgb(252, 252, 241);
+}
+
+.container-fluid {
+    background-color: rgb(252, 252, 241);
+}
+
+ul.navegacion {
+    list-style-type: none;
+}
+
+ul.navegacion li a {
+    font-size: 110%;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+a {
+    color: rgb(134, 101, 139);
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+ul.navegacion li {
+    display: inline-flex;
+    margin-top: 20px;
+}
+
+header {
+    border-bottom: solid 1px rgb(65, 168, 183);
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        grid-area: encabezado;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .navbar-brand {
+        display: none;
+    }
+
+    .navegacion {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .tiposterapias {
+        display: none;
+    }
+}
+
+
+
+
+.navbar-brand {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+footer {
+    text-align: center;
+    position: absolute;
+    margin-bottom: 5px;
+    margin-top: 40px;
+    width: 100%;
+    height: 40px;
+}
+
+footer a {
+    font-size: 20px;
+}
+
+footer p {
+    color: rgb(133, 133, 133);
+}
+
+.sob1 {
+    font-size: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.sob2 {
+    width: 10%;
+    height: 10%;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    margin-left: 45%;
+    margin-bottom: 30px;
+}
+
+form{
+    background-color:  rgb(252, 252, 241);
+}
+
+input {
+    background-color: #fbfbfb;
+    width: 408px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ab4493;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    background-color: #fbfbfb;
+    width: 405px;
+    height: 150px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ab4493;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
+
+label {
+    display: block;
+    float: center;
+}
+
+button {
+    height: 45px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    background-color: #ab4493;
+    border-color: #ab4493;
+    border-style: solid;
+    border-radius: 10px;
+    width: 420px;
+    cursor: pointer;
+}
+
+button p {
+    color: #fff;
+}
+
+span {
+    color: #ab4493;
+}
+
+.aviso {
+    font-size: 13px;
+    color: #0e0e0e;
+}
+
+.formulariocontacto h3 {
+    text-align: center;
+}
+
+.yogatitulo {
+    font-size: 50px;
+}
+
+.yoga {
+    font-size: 25px;
+    margin-top: 45px;
+}
+
+.mainindex {
+    margin-bottom: 300px;
+}
+
+.mainsobre {
+    margin-bottom: 215px;
+}
