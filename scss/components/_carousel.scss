@@ -1,0 +1,41 @@
+
+.carousel {
+    width: 100%;
+    padding: 20px;  
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.carousel p {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.carousel .slick-list {
+    margin: 0 -100px;
+}
+
+.carousel .slick-slide {
+    margin: 0 20px;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+
+.carousel .slick-slide.slick-active {
+    opacity: 1;
+}
+
+.carousel .slick-slide:first-child {
+    margin-left: -80px;
+}
+
+.carousel .slick-slide:last-child {
+    margin-right: -80px;
+}

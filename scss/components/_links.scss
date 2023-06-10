@@ -1,0 +1,8 @@
+a {
+    color: map-get($paleta_de_colores, rosatitulos);
+    text-decoration: none;
+}
+
+a:hover {
+    color: map-get($colores_form, negro);
+}

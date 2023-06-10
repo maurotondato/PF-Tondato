@@ -1,0 +1,95 @@
+form {
+    background-color: map-get($paleta_de_colores, $fondo );
+}
+
+input {
+    background-color: map-get($colores_form, blanco);
+    width: 408px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: map-get($colores_form, rosa);
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    background-color: map-get($colores_form, blanco);
+    width: 405px;
+    height: 150px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: map-get($colores_form, rosa);
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
+
+label {
+    display: block;
+    float: center;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    background-color: map-get($colores_form, rosa);
+    border: none;
+    border-radius: 10px;
+    width: 420px;
+    cursor: pointer;
+}
+
+button span {
+    color: map-get($colores_form, blanco);
+    flex: 1;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    button {
+        width: 100%;
+    }
+}
+
+button p {
+    color: map-get($colores_form, blanco);
+}
+
+span {
+    color: map-get($colores_form, rosa);
+}
+
+.aviso {
+    font-size: 13px;
+    color: map-get($colores_form, negro);
+}
+
+.formulariocontacto h3 {
+    text-align: center;
+}
+
+.card-footer form button[type="submit"] {
+    width: 100%;
+}
+
+.cita {
+    margin-bottom: 200px;
+}
+
+.formulariocontacto {
+    margin-bottom: 200px;
+}
+
+.formularioconsulta {
+    margin-bottom: 200px;
+}

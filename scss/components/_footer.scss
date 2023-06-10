@@ -1,0 +1,17 @@
+footer {
+    background-color: map-get($paleta_de_colores, foot);
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: 10px;
+}
+
+footer a {
+    font-size: 20px;
+}
+
+footer p {
+    color: rgb(133, 133, 133);
+}

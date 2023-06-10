@@ -1,0 +1,64 @@
+h1 {
+    margin-top: 40px;
+    font-size: 70px;
+    color: map-get($paleta_de_colores, rosatitulos);
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    color: map-get($paleta_de_colores, gris);
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+@media only screen and (max-width: 600px) {
+    h3 {
+        margin: auto;
+        margin-top: 50px;
+
+    }
+
+    h4 {
+        margin-top: 30px;
+    }
+}
+
+h4 {
+    text-align: end;
+    margin-right: 160px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .tiposterapias {
+        display: none;
+    }
+}
+
+
+.yogatitulo {
+    font-size: 50px;
+}
+
+.yoga {
+    font-size: 25px;
+    margin-top: 45px;
+    margin-bottom: 100px;
+}
+
+.mainindex {
+    margin-bottom: 300px;
+}
+
+.mainsobre {
+    margin-bottom: 215px;
+}
+
+.noelia {
+    margin-bottom: 50px;
+}
