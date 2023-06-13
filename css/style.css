@@ -40,25 +40,11 @@ h3 {
   margin-right: 160px;
 }
 
-@media only screen and (max-width: 600px) {
-  h3 {
-    margin: auto;
-    margin-top: 50px;
-  }
-  h4 {
-    margin-top: 30px;
-  }
-}
 h4 {
   text-align: end;
   margin-right: 160px;
 }
 
-@media only screen and (max-width: 1200px) {
-  .tiposterapias {
-    display: none;
-  }
-}
 .yogatitulo {
   font-size: 50px;
 }
@@ -106,31 +92,6 @@ header {
   align-items: center;
 }
 
-@media only screen and (max-width: 600px) {
-  header {
-    grid-area: encabezado;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-  }
-  .navbar-brand {
-    display: none;
-  }
-  .navegacion {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .owl-dots {
-    display: none;
-  }
-  .owl-nav {
-    display: none;
-  }
-  .cita {
-    margin-bottom: 50px;
-  }
-}
 .navbar-brand {
   margin-right: 20px;
   margin-left: 20px;
@@ -238,11 +199,6 @@ button p, .btn p {
   color: #fbfbfb;
 }
 
-@media (max-width: 768px) {
-  button, .btn {
-    width: 100%;
-  }
-}
 span {
   color: #ab4493;
 }
@@ -318,4 +274,60 @@ span {
 
 .card p {
   text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  h3 {
+    margin: auto;
+    margin-top: 50px;
+  }
+  h4 {
+    margin-top: 30px;
+  }
+}
+h4 {
+  text-align: end;
+  margin-right: 160px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .tiposterapias {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  button,
+  .btn {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  header {
+    grid-area: encabezado;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+  .navbar-brand {
+    display: none;
+  }
+  .navegacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .owl-dots {
+    display: none;
+  }
+  .owl-nav {
+    display: none;
+  }
+  .cita {
+    margin-bottom: 50px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .tiposterapias {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */

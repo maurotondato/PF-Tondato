@@ -60,12 +60,6 @@ button {
 
 }
 
-@media (max-width: 768px) {
-    button {
-        width: 100%;
-    }
-}
-
 span {
     color: map-get($colores_form, rosa);
 }

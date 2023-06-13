@@ -30,29 +30,10 @@ h3 {
     margin-right: 160px;
 }
 
-@media only screen and (max-width: 600px) {
-    h3 {
-        margin: auto;
-        margin-top: 50px;
-
-    }
-
-    h4 {
-        margin-top: 30px;
-    }
-}
-
 h4 {
     @include alinearTexto(end);
     margin-right: 160px;
 }
-
-@media only screen and (max-width: 1200px) {
-    .tiposterapias {
-        display: none;
-    }
-}
-
 
 .yogatitulo {
     font-size: 50px;

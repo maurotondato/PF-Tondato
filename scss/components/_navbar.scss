@@ -15,7 +15,7 @@ ul.navegacion {
             padding: 1rem;
         }
     }
-    
+
 }
 
 header {
@@ -26,37 +26,6 @@ header {
     align-items: center;
 }
 
-@media only screen and (max-width: 600px) {
-    header {
-        grid-area: encabezado;
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-    }
-
-    .navbar-brand {
-        display: none;
-    }
-
-    .navegacion {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .owl-dots {
-        display: none;
-    }
-
-    .owl-nav {
-        display: none;
-    }
-
-    .cita {
-        margin-bottom: 50px;
-    }
-
-}
 
 .navbar-brand {
     margin-right: 20px;
