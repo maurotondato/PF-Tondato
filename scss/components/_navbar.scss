@@ -4,17 +4,18 @@
 
 ul.navegacion {
     list-style-type: none;
-}
 
-ul.navegacion li a {
-    font-size: 110%;
-    text-decoration: none;
-    padding: 1rem;
-}
+    li {
+        display: inline-flex;
+        margin-top: 20px;
 
-.navegacion li {
-    display: inline-flex;
-    margin-top: 20px;
+        a {
+            font-size: 110%;
+            text-decoration: none;
+            padding: 1rem;
+        }
+    }
+    
 }
 
 header {

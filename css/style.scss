@@ -1,5 +1,6 @@
 @import "../scss/utilities/colores";
 @import "../scss/reset/reset";
+@import "../scss/mixins/mixins.scss";
 @import "../scss/components/body";
 @import "../scss/titles/titles";
 @import "../scss/components/navbar";
@@ -8,3 +9,4 @@
 @import "../scss/sections/sobremisterapias";
 @import "../scss/components/forms";
 @import "../scss/components/carousel";
+@import "../scss/components/cards";

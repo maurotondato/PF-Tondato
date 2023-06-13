@@ -1,5 +1,5 @@
 form {
-    background-color: map-get($paleta_de_colores, $fondo );
+    background-color: map-get($paleta_de_colores, fondo);
 }
 
 input {
@@ -47,22 +47,23 @@ button {
     border-radius: 10px;
     width: 420px;
     cursor: pointer;
-}
 
-button span {
-    color: map-get($colores_form, blanco);
-    flex: 1;
-    text-align: center;
+    span {
+        color: map-get($colores_form, blanco);
+        flex: 1;
+        @include alinearTexto(center);
+    }
+
+    p {
+        color: map-get($colores_form, blanco);
+    }
+
 }
 
 @media (max-width: 768px) {
     button {
         width: 100%;
     }
-}
-
-button p {
-    color: map-get($colores_form, blanco);
 }
 
 span {
@@ -72,10 +73,6 @@ span {
 .aviso {
     font-size: 13px;
     color: map-get($colores_form, negro);
-}
-
-.formulariocontacto h3 {
-    text-align: center;
 }
 
 .card-footer form button[type="submit"] {
@@ -88,6 +85,10 @@ span {
 
 .formulariocontacto {
     margin-bottom: 200px;
+
+    h3 {
+        @include alinearTexto(center);
+    }
 }
 
 .formularioconsulta {

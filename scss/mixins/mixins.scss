@@ -1,0 +1,9 @@
+@mixin alinearTexto($alineacion) {
+    @if $alineacion ==center {
+        text-align: center;
+    }
+
+    @else if $alineacion ==end {
+        text-align: end;
+    }
+}

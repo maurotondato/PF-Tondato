@@ -1,41 +1,53 @@
-
 .carousel {
     width: 100%;
-    padding: 20px;  
+    padding: 20px;
     box-sizing: border-box;
     overflow: hidden;
-}
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: initial;
 
-.carousel img {
-    width: 100%;
-    height: auto;
-    margin-right: 20px;
-    border-radius: 10px;
-}
+    img {
+        width: 100%;
+        height: auto;
+        margin-right: 20px;
+        border-radius: 10px;
+    }
 
-.carousel p {
-    margin-top: 10px;
-    text-align: center;
-}
+    p {
+        margin-top: 10px;
+        @include alinearTexto(center);
+    }
 
-.carousel .slick-list {
-    margin: 0 -100px;
-}
+    .slick-list {
+        margin: 0 -100px;
+    }
 
-.carousel .slick-slide {
-    margin: 0 20px;
-    opacity: 0.7;
-    transition: opacity 0.3s;
-}
+    .slick-slide {
+        margin: 0 20px;
+        opacity: 0.7;
+        transition: opacity 0.3s;
+    }
 
-.carousel .slick-slide.slick-active {
-    opacity: 1;
-}
+    .slick-slide.slick-active {
+        opacity: 1;
+    }
 
-.carousel .slick-slide:first-child {
-    margin-left: -80px;
-}
+    .slick-slide:first-child {
+        margin-left: -80px;
+    }
 
-.carousel .slick-slide:last-child {
-    margin-right: -80px;
+    .slick-slide:last-child {
+        margin-right: -80px;
+    }
+
+    @keyframes aparecer {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 100;
+        }
+    }
 }
