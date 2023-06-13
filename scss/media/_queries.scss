@@ -7,29 +7,33 @@
     h4 {
         margin-top: 30px;
     }
-}
 
-h4 {
-    text-align: end;
-    margin-right: 160px;
-}
-
-@media only screen and (max-width: 1200px) {
-    .tiposterapias {
-        display: none;
-    }
-}
-
-@media (max-width: 768px) {
-
-    button,
-    .btn {
+    .text-sm-end {
         width: 100%;
     }
-}
 
+    .carousel {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
 
-@media only screen and (max-width: 600px) {
+    .carousel .slick-list {
+        margin: 0;
+    }
+
+    .carousel .slick-slide {
+        margin: 3px;
+    }
+
+    .carousel .slick-slide:first-child {
+        margin-left: 0;
+    }
+
+    .carousel .slick-slide:last-child {
+        margin-right: 0;
+    }
+
     header {
         grid-area: encabezado;
         display: flex;
@@ -60,8 +64,16 @@ h4 {
     }
 }
 
-@media only screen and (max-width: 1200px) {
-    .tiposterapias {
-        display: none;
+    @media only screen and (max-width: 1200px) {
+        .tiposterapias {
+            display: none;
+        }
     }
-}
+
+    @media (max-width: 768px) {
+
+        button,
+        .btn {
+            width: 100%;
+        }
+    }

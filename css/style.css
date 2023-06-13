@@ -236,33 +236,54 @@ span {
   animation-name: aparecer;
   animation-iteration-count: initial;
 }
+
 .carousel img {
   width: 100%;
   height: auto;
-  margin-right: 20px;
-  border-radius: 10px;
+  margin-right: 10px;
+  border-radius: 8px;
 }
-.carousel p {
-  margin-top: 10px;
-  text-align: center;
-}
+
 .carousel .slick-list {
   margin: 0 -100px;
 }
+
 .carousel .slick-slide {
   margin: 0 20px;
   opacity: 0.7;
   transition: opacity 0.3s;
 }
+
 .carousel .slick-slide.slick-active {
   opacity: 1;
 }
+
 .carousel .slick-slide:first-child {
   margin-left: -80px;
 }
+
 .carousel .slick-slide:last-child {
   margin-right: -80px;
 }
+
+.carousel .slick-next {
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  cursor: pointer;
+  color: #ab4493;
+}
+
+.carousel .slick-prev {
+  left: 20px;
+}
+
+.carousel .slick-next {
+  right: 20px;
+}
+
 @keyframes aparecer {
   0% {
     opacity: 0;
@@ -271,7 +292,6 @@ span {
     opacity: 100;
   }
 }
-
 .card p {
   text-align: center;
 }
@@ -284,24 +304,26 @@ span {
   h4 {
     margin-top: 30px;
   }
-}
-h4 {
-  text-align: end;
-  margin-right: 160px;
-}
-
-@media only screen and (max-width: 1200px) {
-  .tiposterapias {
-    display: none;
-  }
-}
-@media (max-width: 768px) {
-  button,
-  .btn {
+  .text-sm-end {
     width: 100%;
   }
-}
-@media only screen and (max-width: 600px) {
+  .carousel {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .carousel .slick-list {
+    margin: 0;
+  }
+  .carousel .slick-slide {
+    margin: 3px;
+  }
+  .carousel .slick-slide:first-child {
+    margin-left: 0;
+  }
+  .carousel .slick-slide:last-child {
+    margin-right: 0;
+  }
   header {
     grid-area: encabezado;
     display: flex;
@@ -329,5 +351,11 @@ h4 {
 @media only screen and (max-width: 1200px) {
   .tiposterapias {
     display: none;
+  }
+}
+@media (max-width: 768px) {
+  button,
+  .btn {
+    width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */
