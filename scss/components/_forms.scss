@@ -4,7 +4,7 @@ form {
 
 input {
     background-color: map-get($colores_form, blanco);
-    width: 408px;
+    width: 100%;
     height: 40px;
     border-radius: 5px;
     border-style: solid;
@@ -17,7 +17,7 @@ input {
 
 textarea {
     background-color: map-get($colores_form, blanco);
-    width: 405px;
+    width: 100%;
     height: 150px;
     border-radius: 5px;
     border-style: solid;
