@@ -39,7 +39,18 @@
         display: flex;
         flex-direction: column;
         justify-content: start;
+        top: -100px;
+        animation: slideIn 1s forwards;
     }
+
+    @keyframes slideIn {
+        from {
+          transform: translateY(-100%); /* posición inicial */
+        }
+        to {
+          transform: translateY(0); /* posición final */
+        }
+      }
 
     .navbar-brand {
         display: none;
