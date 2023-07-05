@@ -80,6 +80,10 @@
         margin-bottom: 50px;
     }
 
+    span {
+        text-align: center;
+    }
+
     .ubicacion-container {
         align-items: center;
         text-align: center;
@@ -93,6 +97,10 @@
     .mapa-ubicacion iframe {
         padding-left: 3rem;
         width: 85%;
+    }
+
+    #enviar { 
+        width: 100%;
     }
 }
 

@@ -384,6 +384,9 @@ span {
   .cita {
     margin-bottom: 50px;
   }
+  span {
+    text-align: center;
+  }
   .ubicacion-container {
     align-items: center;
     text-align: center;
@@ -396,6 +399,9 @@ span {
   .mapa-ubicacion iframe {
     padding-left: 3rem;
     width: 85%;
+  }
+  #enviar {
+    width: 100%;
   }
 }
 @media only screen and (max-width: 1200px) {
