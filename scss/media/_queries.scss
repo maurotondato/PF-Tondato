@@ -45,12 +45,13 @@
 
     @keyframes slideIn {
         from {
-          transform: translateY(-100%); /* posición inicial */
+            transform: translateY(-100%);
         }
+
         to {
-          transform: translateY(0); /* posición final */
+            transform: translateY(0);
         }
-      }
+    }
 
     .navbar-brand {
         display: none;
@@ -60,6 +61,11 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        font-size: 13px;
+    }
+
+    ul.navegacion li a {
+        padding: 8px;
     }
 
     .owl-dots {
@@ -73,18 +79,59 @@
     .cita {
         margin-bottom: 50px;
     }
+
+    .ubicacion-container {
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .datos-ubicacion {
+        border-right: none;
+        margin-left: 6rem;
+    }
+
+    .mapa-ubicacion iframe {
+        padding-left: 3rem;
+        width: 85%;
+    }
 }
 
-    @media only screen and (max-width: 1200px) {
-        .tiposterapias {
-            display: none;
-        }
+@media only screen and (max-width: 1200px) {
+    .tiposterapias {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 846px) {
+
+    button,
+    .btn {
+        width: 100%;
     }
 
-    @media (max-width: 768px) {
-
-        button,
-        .btn {
-            width: 100%;
-        }
+    .navbar-brand {
+        display: none;
     }
+
+    .col-auto {
+        width: 70%;
+    }
+
+    h3 {
+        margin: auto;
+    }
+
+    ul li a {
+        padding: 0px;
+        font-size: 3px;
+    }
+
+    .mapa-ubicacion iframe {
+        margin-top: 5rem;
+        width: 150%;
+    }
+    
+    .datos-ubicacion {
+        margin-left: 5rem;
+    }
+}
