@@ -399,6 +399,7 @@ span {
   .mapa-ubicacion iframe {
     padding-left: 3rem;
     width: 85%;
+    margin-bottom: 10rem;
   }
   #enviar {
     width: 100%;
